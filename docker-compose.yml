@@ -6,7 +6,7 @@ services:
       - frontend
       - backend
     ports:
-     - "172.20.12.63:8080:80"
+     - "8080:80"
 
   frontend:
     image: openmrs/openmrs-reference-application-3-frontend:${TAG:-qa}
